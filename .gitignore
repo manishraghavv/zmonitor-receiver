@@ -1,0 +1,21 @@
+# ---------------------------------------------------------------------------
+# Dependencies
+# ---------------------------------------------------------------------------
+node_modules/
+
+# ---------------------------------------------------------------------------
+# OS / editor artifacts
+# ---------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+*.log
+
+# ---------------------------------------------------------------------------
+# Monitoring data payloads
+#
+# Ignore the contents of the monitor/ folder because they are transient
+# payload files, but keep the folder itself tracked via .gitkeep so the
+# directory exists on fresh clones.
+# ---------------------------------------------------------------------------
+monitor/*
+!monitor/.gitkeep

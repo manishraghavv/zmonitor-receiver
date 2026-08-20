@@ -1,0 +1,23 @@
+{
+  "name": "zmonitor-receiver",
+  "version": "1.0.0",
+  "description": "HTTP server that receives SAP ABAP monitoring data (SM12, AL08, SM50, etc.) as JSON payloads and stores them as timestamped files.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sap",
+    "abap",
+    "monitoring",
+    "sm12",
+    "al08",
+    "sm50",
+    "express"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
